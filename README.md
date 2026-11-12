@@ -29,7 +29,7 @@ Agrega el origen del servidor estático a `CORS_ORIGIN` (admite varios separados
 3. El build corre `prisma migrate deploy`. Para cargar datos iniciales: Shell → `npm run seed`.
 
 ### 2. Vercel (frontend)
-1. Editar `frontend/src/vercel.json` y reemplazar `https://TU-API.onrender.com` por la URL real de Render.
+1. Editar `frontend/src/vercel.json` y reemplazar la URL de Render si cambia (actual: `https://coordinacion-qgoz.onrender.com`).
 2. New Project → este repo → Root Directory `frontend/src`, Framework *Other*, sin build.
 
 En producción el frontend llama a `/api/...` y Vercel lo reenvía a Render, así la cookie

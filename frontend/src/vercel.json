@@ -4,6 +4,6 @@
     { "source": "/", "destination": "/page/login/Inicio_sesion.html", "permanent": false }
   ],
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://TU-API.onrender.com/:path*" }
+    { "source": "/api/:path*", "destination": "https://coordinacion-qgoz.onrender.com/:path*" }
   ]
 }
